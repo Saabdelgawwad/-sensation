@@ -11,7 +11,7 @@ div.dataTables_wrapper{position:relative;clear:both}
 div.dataTables_wrapper div.dataTables_scroll{margin-bottom:10px;background-color:#ffffff;border:1px solid #aaa;overflow:hidden;clear:both}
 div.dataTables_wrapper div.dataTables_scrollHead{background-color:#666;color:white;font-size:10px;line-height:19px;height:20px;font-weight:bold}
 div.dataTables_wrapper div.dataTables_scrollBody{-webkit-overflow-scrolling:touch}
-div.dataTables_wrapper table.translationList{border:0;margin:0;background:transparent:}
+div.dataTables_wrapper table.translationList{border:0;margin:0;background:transparent}
 div.dataTables_wrapper tr.even{background:#f7f7f7}
 div.dataTables_wrapper tr.selected{background:#d8ecd0}
 div.dataTables_wrapper thead td{cursor:pointer}

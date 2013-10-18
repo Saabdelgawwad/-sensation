@@ -1,7 +1,8 @@
 <?php
 return array(
 	'BE' => array(
-		'installToolPassword' => 'bacb98acf97e0b6112b1d1b650b84971',
+		'installToolPassword' => '8713fead20c2bf655e4134a9fe1aac4e',
+		'versionNumberInFilename' => '0',
 	),
 	'DB' => array(
 		'database' => 'typo3db_01',
@@ -105,10 +106,16 @@ return array(
 			),
 		),
 	),
+	'GFX' => array(
+		'im_combine_filename' => 'composite',
+		'im_path' => 'D:\\Programs\\Xampp\\ImageMagick-6.8.7-Q16\\',
+		'im_path_lzw' => 'D:\\Programs\\Xampp\\ImageMagick-6.8.7-Q16\\',
+		'im_useStripProfileByDefault' => '0',
+	),
 	'SYS' => array(
 		'compat_version' => '6.1',
 		'encryptionKey' => '87bce322f10914b382a08ec3dfcbb95c33527e04247c45c2d912f421fd5bf527b620315cada80dc90abc73f573a3cae9',
-		'sitename' => 'New TYPO3 site',
+		'sitename' => 'Sensation',
 	),
 );
 ?>
