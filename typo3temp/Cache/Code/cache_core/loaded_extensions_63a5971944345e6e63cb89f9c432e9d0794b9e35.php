@@ -110,14 +110,6 @@ return array (
     'ext_tables.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3/sysext/install/ext_tables.php',
     'ext_icon' => 'ext_icon.gif',
   ),
-  'introduction' => 
-  array (
-    'type' => 'L',
-    'siteRelPath' => 'typo3conf/ext/introduction/',
-    'typo3RelPath' => '../typo3conf/ext/introduction/',
-    'ext_localconf.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3conf/ext/introduction/ext_localconf.php',
-    'ext_icon' => 'ext_icon.gif',
-  ),
   'perm' => 
   array (
     'type' => 'S',
@@ -140,14 +132,6 @@ return array (
     'siteRelPath' => 'typo3/sysext/filelist/',
     'typo3RelPath' => 'sysext/filelist/',
     'ext_tables.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3/sysext/filelist/ext_tables.php',
-    'ext_icon' => 'ext_icon.gif',
-  ),
-  'about' => 
-  array (
-    'type' => 'S',
-    'siteRelPath' => 'typo3/sysext/about/',
-    'typo3RelPath' => 'sysext/about/',
-    'ext_tables.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3/sysext/about/ext_tables.php',
     'ext_icon' => 'ext_icon.gif',
   ),
   'version' => 
@@ -297,14 +281,6 @@ return array (
     'ext_localconf.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3/sysext/beuser/ext_localconf.php',
     'ext_tables.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3/sysext/beuser/ext_tables.php',
     'ext_typoscript_setup.txt' => 'D:/Programs/Xampp/htdocs/typo3/typo3/sysext/beuser/ext_typoscript_setup.txt',
-    'ext_icon' => 'ext_icon.gif',
-  ),
-  'aboutmodules' => 
-  array (
-    'type' => 'S',
-    'siteRelPath' => 'typo3/sysext/aboutmodules/',
-    'typo3RelPath' => 'sysext/aboutmodules/',
-    'ext_tables.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3/sysext/aboutmodules/ext_tables.php',
     'ext_icon' => 'ext_icon.gif',
   ),
   'setup' => 

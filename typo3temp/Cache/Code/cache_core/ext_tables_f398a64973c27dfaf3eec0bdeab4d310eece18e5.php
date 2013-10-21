@@ -1060,37 +1060,6 @@ if (TYPO3_MODE === 'BE') {
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::loadNewTcaColumnsConfigFiles();
 
 /**
- * Extension: about
- * File: D:/Programs/Xampp/htdocs/typo3/typo3/sysext/about/ext_tables.php
- */
-
-$_EXTKEY = 'about';
-$_EXTCONF = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY];
-
-
-if (!defined('TYPO3_MODE')) {
-	die('Access denied.');
-}
-// Avoid that this block is loaded in frontend or within upgrade wizards
-if (TYPO3_MODE === 'BE' && !(TYPO3_REQUESTTYPE & TYPO3_REQUESTTYPE_INSTALL)) {
-	\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-		'TYPO3.CMS.' . $_EXTKEY,
-		'help',
-		'about',
-		'top',
-		array('About' => 'index'),
-		array(
-			'access' => 'user,group',
-			'icon' => 'EXT:about/ext_icon.gif',
-			'labels' => 'LLL:EXT:lang/locallang_mod_help_about.xlf'
-		)
-	);
-}
-
-
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::loadNewTcaColumnsConfigFiles();
-
-/**
  * Extension: version
  * File: D:/Programs/Xampp/htdocs/typo3/typo3/sysext/version/ext_tables.php
  */
@@ -1563,39 +1532,6 @@ if (TYPO3_MODE === 'BE') {
 		array(
 			'access' => 'user,group',
 			'icon' => 'EXT:' . $_EXTKEY . '/ext_icon.gif',
-			'labels' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_mod.xlf'
-		)
-	);
-}
-
-
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::loadNewTcaColumnsConfigFiles();
-
-/**
- * Extension: aboutmodules
- * File: D:/Programs/Xampp/htdocs/typo3/typo3/sysext/aboutmodules/ext_tables.php
- */
-
-$_EXTKEY = 'aboutmodules';
-$_EXTCONF = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY];
-
-
-if (!defined('TYPO3_MODE')) {
-	die('Access denied.');
-}
-// Avoid that this block is loaded in frontend or within upgrade wizards
-if (TYPO3_MODE === 'BE' && !(TYPO3_REQUESTTYPE & TYPO3_REQUESTTYPE_INSTALL)) {
-	\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-		'TYPO3.CMS.' . $_EXTKEY,
-		'help',
-		'aboutmodules',
-		'after:about',
-		array(
-			'Modules' => 'index'
-		),
-		array(
-			'access' => 'user,group',
-			'icon' => 'EXT:aboutmodules/ext_icon.gif',
 			'labels' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_mod.xlf'
 		)
 	);

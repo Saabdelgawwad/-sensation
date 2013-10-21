@@ -12,11 +12,9 @@ return array(
 	),
 	'EXT' => array(
 		'extListArray' => array(
-			'introduction',
 			'perm',
 			'func',
 			'filelist',
-			'about',
 			'version',
 			'tsconfig_help',
 			'context_help',
@@ -35,7 +33,6 @@ return array(
 			'install',
 			'belog',
 			'beuser',
-			'aboutmodules',
 			'setup',
 			'taskcenter',
 			'info_pagetsconfig',
