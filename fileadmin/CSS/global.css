@@ -1,0 +1,45 @@
+/* 
+    Created on : 28.10.2013, 14:02:14
+    Author     : TheFlame
+*/
+
+html{
+}
+body{
+}
+.container {
+    max-width: 750px !important; 
+    background-color: #E8E8E8;
+    height: 900px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 40px;
+}
+#navigation {
+    margin-top: 15px;
+}
+#navigation ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#navigation li {
+    margin-right: 5px;
+    float: left;
+}
+#navigation li:after {
+    content: '|';
+    margin-left: 5px;
+}
+#navigation a{
+    color: #FF8C00;
+    font-size: 16px;
+}
+#navigation a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.csc-header-n1{
+    font-size: 24px;
+    font-weight: bold;
+}

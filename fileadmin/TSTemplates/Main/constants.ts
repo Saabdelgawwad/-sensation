@@ -8,6 +8,7 @@
  */
 
 PATH {
+        css = ./fileadmin/css/
 	jquery = ./fileadmin/lib/jquery/
 	twitterbootstrapJS = ./fileadmin/lib/twitterbootstrap/js/
 	twitterbootstrapCSS = ./fileadmin/lib/twitterbootstrap/css/
