@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-10-28T16:26:39Z" product-name="ksd_cards">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_ksdcards_domain_model_person">
+				<source>Person Data</source>
+			</trans-unit>
+			<trans-unit id="tx_ksdcards_domain_model_person.surname">
+				<source>Vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_ksdcards_domain_model_person.lastname">
+				<source>Nachname</source>
+			</trans-unit>
+			<trans-unit id="tx_ksdcards_domain_model_person.address">
+				<source>Adresse</source>
+			</trans-unit>
+			<trans-unit id="tx_ksdcards_domain_model_person.postcode">
+				<source>Postleihzahl</source>
+			</trans-unit>
+			<trans-unit id="tx_ksdcards_domain_model_person.location">
+				<source>Ort</source>
+			</trans-unit>
+			<trans-unit id="tx_ksdcards_domain_model_person.email">
+				<source>E-Mail Adresse</source>
+			</trans-unit>
+			<trans-unit id="tx_ksdcards_domain_model_person.phone">
+				<source>Telefonnummer</source>
+			</trans-unit>
+			<trans-unit id="tx_ksdcards_domain_model_person.note">
+				<source>Bemerkung</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

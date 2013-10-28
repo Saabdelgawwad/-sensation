@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-10-28T16:41:16Z" product-name="ksd_cards">
+		<header/>
+		<body>
+
+			<trans-unit id="datetime.description">
+				<source>Bestelldatum</source>
+			</trans-unit>
+			<trans-unit id="amount.description">
+				<source>Anzahl Tageskarten</source>
+			</trans-unit>
+			<trans-unit id="status.description">
+				<source>Bestell Status</source>
+			</trans-unit>
+			<trans-unit id="person_i_d.description">
+				<source>Fremdschlüssel</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

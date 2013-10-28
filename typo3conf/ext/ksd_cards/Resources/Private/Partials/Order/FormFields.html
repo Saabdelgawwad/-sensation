@@ -1,0 +1,12 @@
+<label for="datetime">
+	<f:translate key="tx_ksdcards_domain_model_order.datetime" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="datetime"  value="{order.datetime->f:format.date()}" /><br />
+<label for="amount">
+	<f:translate key="tx_ksdcards_domain_model_order.amount" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="amount" /><br />
+<label for="status">
+	<f:translate key="tx_ksdcards_domain_model_order.status" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="status" /><br />

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2013-10-28T16:41:16Z" product-name="ksd_cards">
+        <header/>
+        <body>
+
+            <trans-unit id="tx_ksdcards_domain_model_person">
+                <source>Personen Daten</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.surname">
+                <source>Vorname</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.lastname">
+                <source>Nachname</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.address">
+                <source>Adresse</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.postcode">
+                <source>Postleihzahl</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.location">
+                <source>Ort</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.email">
+                <source>E-Mail Adresse</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.phone">
+                <source>Telefonnummer</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.note">
+                <source>Bemerkung</source>
+            </trans-unit>
+			
+            <trans-unit id="tx_ksdcards_domain_model_order">
+                <source>Bestellung Tageskarten</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_order.datetime">
+                <source>Bestelldatum</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_order.amount">
+                <source>Anzahl Tageskarten</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_order.status">
+                <source>Bestell Status</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_order.person_i_d">
+                <source>Fremdschlüssel</source>
+            </trans-unit>
+            <!-- Flexform LLL -->
+            <trans-unit id="conf.tab.general">
+                <source>Ansichten</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.view.config">
+                <source>Frontend Konfiguration</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.information">
+                <source>Informationen</source>
+            </trans-unit>	
+            <trans-unit id="conf.tab.information.name">
+                <source>Bezüger</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.information.agency">
+                <source>Dienststelle</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.information.street">
+                <source>Strasse</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.information.postcode">
+                <source>PLZ</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.information.location">
+                <source>Ort</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.information.internet">
+                <source>Internet</source>
+            </trans-unit>	
+            <trans-unit id="conf.tab.information.phone">
+                <source>Telefon</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.information.fax">
+                <source>Fax</source>
+            </trans-unit>
+            <trans-unit id="conf.tab.information.email">
+                <source>E-Mail</source>
+            </trans-unit>	
+        </body>
+    </file>
+</xliff>

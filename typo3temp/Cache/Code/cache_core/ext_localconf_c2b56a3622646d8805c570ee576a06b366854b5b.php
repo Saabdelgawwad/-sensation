@@ -1044,4 +1044,36 @@ if (!defined('TYPO3_MODE')) {
 
 
 
+/**
+ * Extension: ksd_cards
+ * File: D:/Programs/Xampp/htdocs/typo3/typo3conf/ext/ksd_cards/ext_localconf.php
+ */
+
+$_EXTKEY = 'ksd_cards';
+$_EXTCONF = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY];
+
+
+if (!defined('TYPO3_MODE')) {
+	die ('Access denied.');
+}
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+	'KSD.' . $_EXTKEY,
+	'Ksddc',
+	array(
+		'Person' => 'new, create, edit, update, delete',
+		'Order' => 'new, create',
+		
+	),
+	// non-cacheable actions
+	array(
+		'Person' => 'create, update, delete',
+		'Order' => 'create',
+		
+	)
+);
+
+
+
+
 #

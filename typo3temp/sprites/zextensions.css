@@ -30,3 +30,13 @@
 	background-image: url('../../typo3/sysext/rtehtmlarea/extensions/Acronym/skin/images/acronym.gif') !important;
 }
 	
+.t3-icon-tx_ksdcards_domain_model_person-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/ksd_cards/Resources/Public/Icons/tx_ksdcards_domain_model_person.gif') !important;
+}
+	
+.t3-icon-tx_ksdcards_domain_model_order-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/ksd_cards/Resources/Public/Icons/tx_ksdcards_domain_model_order.gif') !important;
+}
+	

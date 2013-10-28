@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2013-10-28T16:41:16Z" product-name="ksd_cards">
+        <header/>
+        <body>
+
+            <trans-unit id="tx_ksdcards_domain_model_person">
+                <source>Person</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.surname">
+                <source>Surname</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.lastname">
+                <source>Lastname</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.address">
+                <source>Address</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.postcode">
+                <source>Postcode</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.location">
+                <source>Location</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.email">
+                <source>Email</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.phone">
+                <source>Phone</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_person.note">
+                <source>Note</source>
+            </trans-unit>
+
+            <trans-unit id="tx_ksdcards_domain_model_order">
+                <source>Order</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_order.datetime">
+                <source>Datetime</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_order.amount">
+                <source>Amount</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_order.status">
+                <source>Status</source>
+            </trans-unit>
+            <trans-unit id="tx_ksdcards_domain_model_order.person_i_d">
+                <source>Person I D</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

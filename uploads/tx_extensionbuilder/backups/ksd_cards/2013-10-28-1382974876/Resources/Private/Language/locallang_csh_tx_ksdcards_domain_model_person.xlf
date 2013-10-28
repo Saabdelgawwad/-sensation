@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-10-28T16:26:40Z" product-name="ksd_cards">
+		<header/>
+		<body>
+
+			<trans-unit id="surname.description">
+				<source>Vorname</source>
+			</trans-unit>
+			<trans-unit id="lastname.description">
+				<source>Nachname</source>
+			</trans-unit>
+			<trans-unit id="address.description">
+				<source>Adresse</source>
+			</trans-unit>
+			<trans-unit id="postcode.description">
+				<source>Postleihzahl</source>
+			</trans-unit>
+			<trans-unit id="location.description">
+				<source>Ort</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>E-Mail Adresse</source>
+			</trans-unit>
+			<trans-unit id="phone.description">
+				<source>Telefonnummer</source>
+			</trans-unit>
+			<trans-unit id="note.description">
+				<source>Bemerkung</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

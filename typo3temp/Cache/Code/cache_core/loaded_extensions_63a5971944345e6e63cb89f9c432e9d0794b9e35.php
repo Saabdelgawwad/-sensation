@@ -381,5 +381,24 @@ return array (
     'ext_tables.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3/sysext/form/ext_tables.php',
     'ext_icon' => 'ext_icon.gif',
   ),
+  'extension_builder' => 
+  array (
+    'type' => 'L',
+    'siteRelPath' => 'typo3conf/ext/extension_builder/',
+    'typo3RelPath' => '../typo3conf/ext/extension_builder/',
+    'ext_tables.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3conf/ext/extension_builder/ext_tables.php',
+    'ext_typoscript_setup.txt' => 'D:/Programs/Xampp/htdocs/typo3/typo3conf/ext/extension_builder/ext_typoscript_setup.txt',
+    'ext_icon' => 'ext_icon.gif',
+  ),
+  'ksd_cards' => 
+  array (
+    'type' => 'L',
+    'siteRelPath' => 'typo3conf/ext/ksd_cards/',
+    'typo3RelPath' => '../typo3conf/ext/ksd_cards/',
+    'ext_localconf.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3conf/ext/ksd_cards/ext_localconf.php',
+    'ext_tables.php' => 'D:/Programs/Xampp/htdocs/typo3/typo3conf/ext/ksd_cards/ext_tables.php',
+    'ext_tables.sql' => 'D:/Programs/Xampp/htdocs/typo3/typo3conf/ext/ksd_cards/ext_tables.sql',
+    'ext_icon' => 'ext_icon.gif',
+  ),
 );
 #

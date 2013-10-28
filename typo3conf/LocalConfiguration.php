@@ -11,6 +11,11 @@ return array(
 		'username' => 'root',
 	),
 	'EXT' => array(
+		'extConf' => array(
+			'extension_builder' => 'a:3:{s:15:"enableRoundtrip";s:0:"";s:15:"backupExtension";s:1:"1";s:9:"backupDir";s:35:"uploads/tx_extensionbuilder/backups";}',
+			'kds_cards' => 'a:0:{}',
+			'ksd_cards' => 'a:0:{}',
+		),
 		'extListArray' => array(
 			'perm',
 			'func',
@@ -44,6 +49,8 @@ return array(
 			'reports',
 			'felogin',
 			'form',
+			'extension_builder',
+			'ksd_cards',
 		),
 	),
 	'EXTCONF' => array(
